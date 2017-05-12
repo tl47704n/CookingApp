@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Please Insert the Cook Time and Prep Time of your recipe:"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/nextButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Next" />
+
+    <EditText
+        android:id="@+id/cookTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/prepTime"
+        android:layout_alignStart="@+id/prepTime"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Cook Time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/prepTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cookTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="Prep Time"
+        android:inputType="textPersonName" />
+</RelativeLayout>

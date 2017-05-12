@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "571353474001",
+    "firebase_url": "https://homechefparty-e0f77.firebaseio.com",
+    "project_id": "homechefparty-e0f77",
+    "storage_bucket": "homechefparty-e0f77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571353474001:android:2931b7ad16b5bdcc",
+        "android_client_info": {
+          "package_name": "com.example.pc.homechefparty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571353474001-tagjohidcvd7911qb128kj9ar4u0bs27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pc.homechefparty",
+            "certificate_hash": "837f1a023eba9bb612de5bcfbe2e232d7b75be3b"
+          }
+        },
+        {
+          "client_id": "571353474001-450n14qmje0d48s2lc8rupnkhtgk7lkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUILI_dFN0A6366rn98OyKr-jahMVyYPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571353474001-450n14qmje0d48s2lc8rupnkhtgk7lkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

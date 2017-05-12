@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+
+            android:id="@+id/im_image_in_view_search"
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@mipmap/ic_photo_size_select_actual" />
+        <TextView
+
+            android:id="@+id/tv_recipe_name_in_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="Recipe Name"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+        <View
+
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            />
+        <TextView
+
+            android:paddingTop="16dp"
+            android:id="@+id/tv_preptime_in_view_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="Preptimeandcooktime"
+            android:paddingBottom="16dp"
+            />
+        <View
+
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <com.example.pc.ChineseChow.NestedListView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_ingredients_search"
+            android:paddingRight="10dp">
+
+        </com.example.pc.ChineseChow.NestedListView>
+
+
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+
+            android:id="@+id/steptitle"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps: "
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <com.example.pc.ChineseChow.NestedListView
+
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_step_search"
+            android:textSize="20sp"
+            android:paddingRight="10dp"
+            >
+
+        </com.example.pc.ChineseChow.NestedListView>
+        <Button
+            android:id="@+id/bt_tomain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Recently Upload"
+            android:textSize="25sp"
+
+            />
+
+    </LinearLayout>
+</ScrollView >
